@@ -1,0 +1,129 @@
+body {
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    align-items: center;
+
+
+}
+
+.container__all {
+    display: flex;
+    justify-content: center;
+}
+
+.container__header {
+    background-color: var(--color-primary);
+    width: 321px;
+    height: 407px;
+    border-radius: 4px;
+}
+
+.header__tittle {
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--color-grey-5);
+    text-align: center;
+}
+
+.header__image {
+    width: 135px;
+    height: 132px;
+    margin: 30px 90px;
+}
+
+.header__tittle-2 {
+    color: var(--color-grey-5);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container__main {
+    width: 398px;
+    height: 407px;
+    background-color: var(--color-grey-5);
+    border-radius: 4px;
+}
+
+
+.main__login {
+    padding-top: 50px;
+    display: flex;
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--color-grey-1);
+    justify-content: center;
+}
+
+.main__for {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__main > form {
+    padding-left: 85px;
+    padding-top: 30px;
+}
+
+.main__label {
+    padding-top: 25px;
+    margin-right: 160px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--color-primary);
+}
+
+.main__email {
+    border: 1px solid var(--color-grey-3);
+    padding-left: 12px;
+    border-radius: 8px;
+    width: 240px;
+    height: 44px;
+}
+
+
+.main__senha {
+    border: 1px solid var(--color-grey-3);
+    padding-left: 12px;
+    border-radius: 8px;
+    width: 240px;
+    height: 44px;
+}
+
+.main__senha--esqueceu {
+    color: var(--color-grey-1);
+    display: flex;
+    font-size: 12px;
+    justify-content: space-evenly;
+    cursor: pointer;
+    width: 133px;
+    margin-left: 100px;
+}
+
+.main__senha--esqueceu:hover{
+border-bottom: solid 1px var(--color-primary);
+}
+
+
+.main__button {
+    margin-top: 17px;
+    font-weight: 700;
+    font-size: 25px;
+    border: none;
+    color: var(--color-grey-5);
+    background-color: var(--color-primary);
+    border-radius: 8px;
+    width: 240px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.main__button:hover{
+    background-color: var(--color-grey-1);
+}
